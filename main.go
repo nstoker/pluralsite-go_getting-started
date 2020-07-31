@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/pluralsite-go_getting-started/models"
+)
 
 func main() {
-	fmt.Println("Hello from a Module, Gophers!")
+	u := models.User{
+		ID:        2,
+		FirstName: "Tricia",
+		LastName:  "McMillan",
+	}
+	fmt.Println(u)
 }
