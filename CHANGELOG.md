@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Part 3 Added a Hello Gophers program.
 - We are going to be building a web services application.
 - Part 5 Added models folder and users model.
+- Part 6
+  - Added GetUsers and AddUser functions.
+  - Start userController
+  - Added basic webserver calling the userController.
